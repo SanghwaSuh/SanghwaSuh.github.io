@@ -1,16 +1,16 @@
 title:              Team Creative
-email:              jsy724724@gmail.com
+email:              
 description:        BellGeekFest Hackton 2021 
-author:             Junseo Yang
+author:             Team Creative
 baseurl:            "/"
 url:                "https://sanghwasuh.github.io/"
 
 # Social Profiles
 twitter_username:   
-github_username:    YouCanCallMeJ
+github_username:    sanghwasuh/sanghwasuh.github.io
 facebook_username:  
 instagram_username:  
-linkedin_username:  junseo-yang-8878a6210
+linkedin_username:  
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
