@@ -25,42 +25,50 @@ layout: default
 
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-
-        {{ content }}
-
-        <!-- Home Post List -->
-        {% for post in site.posts limit : 5 %}
-
-        <article class="post-preview">
-          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-            <h2 class="post-title">{{ post.title }}</h2>
-            {% if post.subtitle %}
-            <h3 class="post-subtitle">{{ post.subtitle }}</h3>
-            {% else %}
-            <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
-            {% endif %}
-          </a>
-          <p class="post-meta">Posted by
-            {% if post.author %}
-            {{ post.author }}
-            {% else %}
-            {{ site.author }}
-            {% endif %}
-            on
-            {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}            
-          </p>
-        </article>
-
-        <hr>
-
-        {% endfor %}
-
-        <!-- Pager -->
-        <div class="clearfix">
-          <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="our-team">
+          <div class="picture">
+            <img class="img-fluid" src="img/profile/junseo-yang.jpg">
+          </div>
+          <div class="team-content">
+            <h3 class="name"><a href="https://www.linkedin.com/in/junseo-yang-8878a6210/">Junseo Yang</a></h3>
+            <h4 class="title">Software Developer</h4>
+          </div>
         </div>
-
+      </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="our-team">
+          <div class="picture">
+            <img class="img-fluid" src="img/profile/anne-laurice-peralta.jpg">
+          </div>
+          <div class="team-content">
+            <h3 class="name"><a href="https://www.linkedin.com/in/anne-laurice-peralta/">Anne Laurice Peralta</a></h3>
+            <h4 class="title">Frontend Developer</h4>
+          </div>
+        </div>
+      </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="our-team">
+          <div class="picture">
+            <img class="img-fluid" src="img/profile/yookyung-baek.jpg">
+          </div>
+          <div class="team-content">
+            <h3 class="name"><a href="https://www.linkedin.com/in/ashley-ykbaek/">Yookyung Baek</a></h3>
+            <h4 class="title">Fullstack Developer</h4>
+          </div>
+        </div>
+      </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="our-team">
+          <div class="picture">
+            <img class="img-fluid" src="img/profile/sanghwa-suh.JPG">
+          </div>
+          <div class="team-content">
+            <h3 class="name"><a href="https://www.linkedin.com/in/sanghwa-suh-9270991b8/">Sanghwa Suh</a></h3>
+            <h4 class="title">Backend Developer</h4>
+          </div>
       </div>
     </div>
   </div>
+
+<h2 class="text-center">Meet you in BellGeekFest 2021!</h2>
