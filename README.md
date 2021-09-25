@@ -25,7 +25,7 @@ Users can also search for the Recycling Centers by navigating to the Locator pag
 * https://theconversation.com/how-we-can-turn-plastic-waste-into-green-energy-104072
 
 ## Running the ruby-server
-bundle exec jekyll serve
+```bundle exec jekyll serve
 Server will run on http://localhost:4000
 
 ## Developers
