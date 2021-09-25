@@ -12,7 +12,7 @@ Users can also search for the Recycling Centers by navigating to the Locator pag
 * HTML
 * JavaScript
 * CSS
-* bootstrap
+* Bootstrap
 * Markdown
 * Ruby
 * Github
