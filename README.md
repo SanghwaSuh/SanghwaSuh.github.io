@@ -4,7 +4,7 @@
 
 This is exclusively created for Bell Hackathon Geekfest 2021, as the solution to the challenge of sustainable decision-making technology.
 
-It is used to give information about general plastic waste, statistics of how much plastic is consumed per day, and what we can do to lessen this waste by trasforming it into green energy, and 
+It is used to give information about general plastic waste, statistics of how much plastic is consumed per day, and what we can do to lessen this waste by trasforming it into green energy, and other ways on how to reuse these plastics.
 
 Users can also search for the Recycling Centers by navigating to the Locator page.
 
@@ -21,7 +21,7 @@ Users can also search for the Recycling Centers by navigating to the Locator pag
 * https://theconversation.com/how-we-can-turn-plastic-waste-into-green-energy-104072
 
 ## Developers
-Junseo Yang
-Yoo Kyung Baek
-Sanghwa Suh
-Anne Laurice Peralta
+* Junseo Yang
+* Yoo Kyung Baek
+* Sanghwa Suh
+* Anne Laurice Peralta
